@@ -102,6 +102,8 @@ export const Todo = () => {
 			.catch((error) => dispatch(todosError(error.message)));
 	};
 
+	
+
 	useEffect(() => {
 		getTodos();
 	}, []);
@@ -133,15 +135,12 @@ export const Todo = () => {
 						</button>
 						<ul className='dropdown-menu'>
 							<li>
-								<a className='dropdown-item' href='#'>
+								<button
+									className='dropdown-item'>
 									Edit Profile
-								</a>
+								</button>
 							</li>
-							<li>
-								<a className='dropdown-item' href='#'>
-									Another action
-								</a>
-							</li>
+
 							<li>
 								<button
 									onClick={handleLogOut}
@@ -251,7 +250,7 @@ export const Todo = () => {
 							))}
 						</ul>
 					) : (
-						<Loader/>	
+						<Loader />
 					)}
 				</div>
 			</div>
