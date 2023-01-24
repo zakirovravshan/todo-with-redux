@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "email": "zakirov@gmail.com",
+      "password": "$2a$10$f9/mq/9lWEOYG6hVOgQ.K.VKFq.PN0DZoCw55T9SeX/nUhIwZ4nc2",
+      "first_name": "ravshan",
+      "last_name": "zakirov",
+      "id": 1
+    },
+    {
+      "email": "jonibek@gmail.com",
+      "password": "$2a$10$vtj6ZZizfKXSSqGtkoDJ2uJoE2Ifa.HZCnOrkT1pzAaS2zpamNcV.",
+      "first_name": "Jonibek",
+      "last_name": "Qodirov",
+      "id": 2
+    },
+    {
+      "email": "asadbek@gmail.com",
+      "password": "$2a$10$bXVNAjy83MCE5eMiOsdY3O5ophtH8cX4d0RDNDxO3/UTzHz/uWacG",
+      "first_name": "Asadbek",
+      "last_name": "Ergashev",
+      "id": 3
+    },
+    {
+      "email": "otabek@gmail.com",
+      "password": "$2a$10$yE2Uu0ocOUrst5m0KHpyoui/g2TjEGjwcLDr2ZnSvn408Qge6jlZ.",
+      "first_name": "Otabek",
+      "last_name": "Mustofoyev",
+      "id": 4
+    }
+    
+  ],
+  "todos": [
+    {
+      "isDone": true,
+      "todo_text": "do home work",
+      "id": 1
+    },
+    {
+      "isDone": false,
+      "todo_text": "read book",
+      "id": 2
+    },
+    {
+      "isDone": true,
+      "todo_text": "running",
+      "id": 3
+    }
+  ]
+}
