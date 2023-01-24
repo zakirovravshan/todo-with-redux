@@ -28,7 +28,6 @@
       "last_name": "Mustofoyev",
       "id": 4
     }
-    
   ],
   "todos": [
     {
@@ -37,7 +36,6 @@
       "id": 1
     },
     {
-      "isDone": false,
       "todo_text": "read book",
       "id": 2
     },
